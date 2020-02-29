@@ -18,10 +18,13 @@ step -4 Then run these in order
                       git init
 
                       git clone https://github.com/zaidishahbaz/Sales-Forecasting.git
+                      
+                      git fetch origin
 
                       git pull origin master
 
-                      git checkout YOUR_BRANCH_NAME 
+                      git checkout --track -b <local-branch> <remote-repo>/<remote-branch>
+            (example) git checkout --track -b  raz origin/raz
 
 
 
