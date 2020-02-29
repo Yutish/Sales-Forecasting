@@ -24,5 +24,7 @@ step -4 Then run these in order
                       git checkout YOUR_BRANCH_NAME 
 
 
+If you don't find your branch do a git fetch then checkout 
+
 
 
